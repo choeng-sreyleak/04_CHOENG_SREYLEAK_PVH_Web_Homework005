@@ -1,0 +1,13 @@
+/* src/app/components/dashboard.module.css */
+/* Add any custom CSS here that Tailwind cannot cover */
+
+.scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 99px;
+}
