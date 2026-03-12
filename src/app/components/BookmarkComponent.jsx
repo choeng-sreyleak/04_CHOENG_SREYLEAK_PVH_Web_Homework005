@@ -13,7 +13,7 @@ export default function BookmarkComponent({ onSortChange }) {
         onClick={() => onSortChange("asc")}
         className="px-2 py-1 rounded-lg bg-gray-700 hover:bg-gray-600"
       >
-        <ArrowUpAZ />
+     <ArrowDownAZ />
       </button>
 
       {/* Sort Z–A */}
@@ -21,7 +21,8 @@ export default function BookmarkComponent({ onSortChange }) {
         onClick={() => onSortChange("desc")}
         className="px-2 py-1 rounded-lg bg-gray-700 hover:bg-gray-600"
       >
-        <ArrowDownAZ />
+             <ArrowUpAZ />
+      
       </button>
     </div>
   );

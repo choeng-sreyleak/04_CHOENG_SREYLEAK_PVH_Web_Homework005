@@ -5,7 +5,8 @@ import BookmarkComponent from "./BookmarkComponent";
 import BackBtnComponent from "../actions/backBtnComponent";
 
 export default function MainComponent({ items }) {
-  const [sortOrder, setSortOrder] = useState("asc"); // asc or desc
+  const [sortOrder, setSortOrder] = useState("asc"); 
+  // asc or desc
 
   // sort items 
   const sortedItems = [...items].sort((a, b) => {

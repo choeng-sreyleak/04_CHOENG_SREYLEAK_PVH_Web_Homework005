@@ -23,7 +23,7 @@ const DetailsViewBtn = ({ item }) => {
             >
               Close
             </button>
-            <div className="mt-10 space-y-2 text-black">
+            <div className="mt-10 space-y-2 text-black bg-gray-200 p-4 rounded-lg">
               <div><strong>ID:</strong> {item.id}</div>
               <div><strong>Name:</strong> {item.item_name}</div>
               <div><strong>Description:</strong> {item.item_description}</div>
